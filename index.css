@@ -1,60 +1,68 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&family=Roboto+Mono:wght@100&display=swap');
+main {
+  background-color: white;
+}
+
+body {
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  color: #152733;
+  /*   line-height: 3.5em; */
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+}
+
+#content{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: left;
+    background: #094faa;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px #999;
+    border-radius: 25px;
+
+}
+.picture1{
+    display:grid;
+    grid-column:1 / 2;
+    text-align: center;
+    box-shadow: 10px 10px 10px #999;
+}
+.name{
+    display:grid;
+    grid-column: 2/4;
+    text-align: left;
+
+}
 
 h1 {
-  background-color: rgb(40 103 24);
-  border-radius: 0.2em;
-  color: rgb(79, 141, 177);
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 4em;
-  margin-top: 0;
-  padding: 0.3em;
-  padding-right: 3em;
-}
-h2 {
-  border-bottom: 1px solid rgb(187, 168, 168);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-img {
-  float: right;
-  box-shadow: 5px 5px 5px rgba(241, 233, 233, 0.425);
-  margin-top: -7em;
-  margin-right: 3em;
-  width: 13em;
-  border-radius: 0.5em;
-}
-div {
-  margin-left: 2em;
-  color: rgb(6, 8, 107);
-  font-size: 1.1em;
-}
-body {
-  background-color: rgb(137 137 232);
-  margin: 1rem auto;
-  max-width: 850px;
+  font-family: "Raleway", serif;
+  font-size: 40px;
 }
 
-a {
-  color: rgb(6, 8, 107);
-}
-.byui {
-  color: rgb(255, 255, 255);
+
+header {
+  align-items: center;
+  background-color: #094faa;
+  border-radius: 25px;
 }
 
-.bb {
-  color: rgb(255, 249, 163);
-  font-size: 0.7em;
-}
-.last {
-  color: rgb(255, 249, 163);
-  font-size: 0.7em;
-}
 footer {
-  background-color: rgb(40 103 24);
-  color: rgb(255, 255, 255);
-  text-align: center;
-  border-radius: 0.5em;
-  font-size: 1em;
-  padding: 1em;
+    padding: 40px;
+    text-align: center;
+    background: #094faa;
+    color: white;
+    font-size: 30px;
+    box-shadow: 10px 10px 10px #999;
+    border-radius: 25px;
 }
