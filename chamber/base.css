@@ -51,7 +51,7 @@ footer {
 	text-align: center;
 	font-size: 0.8rem;
     color: white;
-    
+
 }
 
 .headings {
@@ -127,6 +127,12 @@ footer {
   .parts{
       background-color: #ccc;
       border: 1px solid black;
+  }
+  
+  #date{
+      color: white;
+      size: 1pt;
+      background-color: #04AA6D;
   }
 
   main{
