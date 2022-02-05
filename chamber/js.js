@@ -27,3 +27,9 @@ function myFunction() {
   const date = new Date(document.lastModified);
   document.getElementById("date").innerHTML = date;
   console.log(date)
+
+
+var Xmas95 = new Date('December 25, 1995 23:15:30');
+var weekday = Xmas95.getDay();
+
+console.log(weekday); // 1

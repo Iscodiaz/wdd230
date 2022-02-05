@@ -20,28 +20,28 @@ body {
 }
 
 .header{
-    padding: 40px;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: left;
-    background: #094faa;
+    background: #407ecf;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
     box-shadow: 10px 10px 10px #999;
-    border-radius: 25px;
+    border-radius: 30px;
 
 }
 .picture1{
     display:grid;
-    grid-column:1 / 2;
+    grid-column:1/2;
     text-align: center;
-    box-shadow: 10px 10px 10px #999;
+    box-shadow: 5px 5px 5px rgb(117, 113, 113);
 }
 .name{
     display:grid;
-    grid-column: 2/4;
-    text-align: left;
+    grid-column: 1/4;
+    text-align: center;
 
 }
 
