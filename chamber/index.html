@@ -21,13 +21,15 @@
             
         </div>
         <div class="topnav" id="myTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                &#9776;
+              <!-- <i class="fa fa-bars"></i> -->
+            </a>
             <a href="#home" class="active">Home</a>
             <a href="#Discover">Discover</a>
             <a href="#Directory">Directory</a>
             <a href="#contact">Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
+            
         </div>
     </header>
     <main>
@@ -35,18 +37,21 @@
             <div class="sectitle">
                 <h3>Event</h3>
             </div>
-            <img src="rodeo.png" alt="rodeopicture"width="150" height="100">
+            <div class="gimg"><img src="rodeo.png" alt="rodeopicture"width="80" ></div>
             <p>Come to the Rexburg Rodeo</p>
         </div>
         <div class='parts' id="weather">
             <div class="sectitle">
                 <h3>Weather</h3>
             </div>
-            <img src="cloudy.png" alt="cloudy picture"width="150" height="100">
-            <p>Cloudy all day today</p>
+            <div class="gimg"><img src="cloudy.png" alt="cloudy picture"width="80" ></div>
+            <div class="temp"> 33°F </div>
+            <div class="dayt"><p>Cloudy all day today</p></div>
+            <p>Wind Speed:   2 km/h</p>
+            <p>Wind Chill:   5°F</p>
         </div>
         <div class='parts' id="join">
-            <button>Join Here</button>  
+            <button class="joinbutton1">Join Here</button>  
         </div>
         <div class='parts' id="hero">
             <div class="hero-image">
@@ -55,25 +60,27 @@
                   <p>Best life</p>
                   <button>Join Here</button>
                 </div>
-              </div>   
+              </div>
         </div>
         <div class='parts' id="news">
+            <div class="sectitle">
+                <h3>Local News</h3>
+            </div>
             <p>See how our home grown Madison County olympic stars are doing in their competition.</p>
-
         </div>
         <div class='parts' id="spotlights">
             <section id="s1">
                 <div class="sectitle">
                     <h3>Jake's Motor Sports</h3>
                 </div>
-                <img src="bike.png" alt="Motor Vehicle logo"width="90" height="80">
+                <div class="gimg"> </div><img src="bike.png" alt="Motor Vehicle logo"width="60" ></div>
                 <p>The Worlds Toughest Motor Vehicles!</p>
             </section>
             <section id="s2">
                 <div class="sectitle">
                     <h3>Rex's Dino Eats</h3>
                 </div>
-                <img src="burger.png" alt="burger logo"width="90" height="80">
+                <img src="burger.png" alt="burger logo"width="60" >
                 <p>Taste the Greatness!</p>
             </section>
             <section id="s3">
@@ -81,7 +88,7 @@
                     <h3>Farmers Market</h3>
                 </div>
                 <img src="farm.png" alt="Farmers Market logo"width="95" height="95"
-                <p>Come see the Local Farmers Market!</p>
+                    <p>Come see the Local Farmers Market!</p>
             </section>
         </div>
     </main>
