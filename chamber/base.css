@@ -89,10 +89,9 @@ h3{text-align: center;}
     color: white;
   }
 
-.joinbutton1{
+/* .joinbutton1{
   border: none;
   outline: 0;
-  /* display: inline-block; */
   padding: 10px 25px;
   color: white;
   background-color: #1b83ce;
@@ -100,7 +99,13 @@ h3{text-align: center;}
   cursor: pointer;
   border-radius: 25px;
   align-items: center;
-}
+  display: block;
+  margin-top: 30%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
 
 .joinbutton1:hover{
   background-color: #555;
@@ -251,6 +256,8 @@ footer {
     grid-column: 1/2;
     grid-row: 2/3;
     background-color: #032741;
+    
+    
 
     }
 
@@ -269,7 +276,7 @@ footer {
 
     main{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 300px 200px 100px 200px 100px ;
+        grid-template-rows: 300px 200px 200px 200px 200px ;
         grid-gap: 10px;
         justify-content: stretch;
         align-content: stretch;
@@ -287,6 +294,8 @@ footer {
       }
     #spotlights{
       display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 200px;
       grid-column: 1/-1;
       grid-row: 3/4;
       background-color: #032741;
@@ -320,6 +329,45 @@ footer {
     }
     #s3{
       display: none;
+    }
+    .cloud{
+      float:left;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .gimg{
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .temp{
+      text-align: right;
+    }
+    .dayt{
+      border-bottom: .5px solid white;
+    }
+    .joinbutton1{
+      border: none;
+      outline: 0;
+      /* display: inline-block; */
+      padding: 10px 25px;
+      color: white;
+      background-color: #1b83ce;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 25px;
+      align-items: center;
+      display: block;
+      margin-top: 8%;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
     }
 }
 
@@ -366,15 +414,6 @@ footer {
         grid-row: 2/3;
         background-color: #032741;
     }
-    #gimg{
-      align-items: center;
-    }
-    #temp{
-      text-align: right;
-    }
-    #dayt{
-      border-bottom: .5px solid white;
-    }
     #join{
       grid-column: 1/2;
       grid-row: 3/4;
@@ -407,6 +446,52 @@ footer {
     }
     #s3{
       grid-row: 3/4;
+    }
+    .gimg{
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    .cloud{
+      float:left;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 15px;
+      margin-right: auto;
+      width: 50%;
+    }
+    .temp{
+      float: right;
+      font-size: 35px;
+    }
+    .dayt{
+      float: left;
+      width: 100%;
+      border-bottom: .5px solid white;
+    }
+    .pweather{
+      float: left;
+      width: 100%;
+    }
+    .joinbutton1{
+      border: none;
+      outline: 0;
+      /* display: inline-block; */
+      padding: 10px 25px;
+      color: white;
+      background-color: #1b83ce;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 25px;
+      align-items: center;
+      display: block;
+      margin-top: 30%;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
     }
 
 }
