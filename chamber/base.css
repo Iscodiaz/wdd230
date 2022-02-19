@@ -87,7 +87,7 @@ h3{text-align: center;}
   .hero-text button:hover {
     background-color: #555;
     color: white;
-  }
+  } */
 
 /* .joinbutton1{
   border: none;
@@ -105,7 +105,7 @@ h3{text-align: center;}
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-} */
+}
 
 .joinbutton1:hover{
   background-color: #555;
@@ -135,7 +135,7 @@ footer {
     margin: 20px;
     text-align: center;
     line-height: 25px; */
-    color: #032741;
+    /* color: #032741;
 	padding: 5px 0;
 	display: flex;
 	align-items: center;
@@ -143,7 +143,7 @@ footer {
 	max-width: 900px;
 	margin: 0 auto;
 	border-bottom: 1px solid #bbb;
-  }
+  } */
 
   body{
     padding: 0;
@@ -200,8 +200,8 @@ footer {
   
   .nav li {
     display: inline-block;
-    font-size: 20px;
-    padding: 20px;
+    font-size: 10px;
+    padding: 10x;
   }
 
   .parts{
@@ -242,6 +242,7 @@ footer {
     grid-row: 1/2;
     background-color: #032741;
     }
+    
     #news{
     grid-column: 1/2;
     grid-row: 4/5;
@@ -252,13 +253,73 @@ footer {
     grid-row: 5/6;
     background-color: #032741;
     }
+    #s1{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      border: white;
+      background-color: #032741;
+    }
+    #s2{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      border: white;
+      background-color: #032741;
+    }
+    #s3{
+    display: none;
+    }
     #event{
     grid-column: 1/2;
     grid-row: 2/3;
     background-color: #032741;
-    
-    
+    }
+    .cloud{
+      float:left;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 30%;
+      margin-right: auto;
+      width: 50%;
+    }
+    .gimg{
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
 
+    .temp{
+      float: right;
+      font-size: 35px;
+      margin-right: 30%;
+    }
+    .dayt{
+      float: left;
+      width: 100%;
+      border-bottom: .5px solid white;
+    }
+    .pweather{
+      float: left;
+      width: 100%;
+    }
+    .joinbutton1{
+      border: none;
+      outline: 0;
+      /* display: inline-block; */
+      padding: 10px 25px;
+      color: white;
+      background-color: #1b83ce;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 25px;
+      align-items: center;
+      display: block;
+      margin-top: 8%;
+      margin-bottom: auto;
+      margin-left: auto;
+      margin-right: auto;
+      width: 85%;
     }
 
 
@@ -280,8 +341,43 @@ footer {
         grid-gap: 10px;
         justify-content: stretch;
         align-content: stretch;
-  
     }
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("tetons.jpg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+  
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+  
+    .hero-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: white;
+      background-color: #1b83ce;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 25px;
+    }
+    
+    .hero-text button:hover {
+      background-color: #555;
+      color: white;
+    }
+  
     #hero{
         grid-column: 1/-1;
         grid-row: 1/2;
@@ -334,7 +430,7 @@ footer {
       float:left;
       margin-top: auto;
       margin-bottom: auto;
-      margin-left: auto;
+      margin-left: 30%;
       margin-right: auto;
       width: 50%;
     }
@@ -345,11 +441,20 @@ footer {
       margin-right: auto;
       width: 50%;
     }
+
     .temp{
-      text-align: right;
+      float: right;
+      font-size: 35px;
+      margin-right: 30%;
     }
     .dayt{
+      float: left;
+      width: 100%;
       border-bottom: .5px solid white;
+    }
+    .pweather{
+      float: left;
+      width: 100%;
     }
     .joinbutton1{
       border: none;
@@ -379,6 +484,42 @@ footer {
         justify-content: stretch;
         align-content: stretch;
     }
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("tetons.jpg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+  
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+  
+    .hero-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: white;
+      background-color: #1b83ce;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 25px;
+    }
+    
+    .hero-text button:hover {
+      background-color: #555;
+      color: white;
+    }
+  
     #weather{
        grid-column: 1/2;
        grid-row: 2/3;
@@ -518,4 +659,65 @@ footer {
       text-align: left;
       width: 100%;
     }
+}
+
+/* 
+css for the img grid  */
+
+
+* { box-sizing: border-box;}
+
+
+
+body {
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  justify-content: center;
+  align-items: center;
+  color: #032741;
+}
+
+/* Grid */
+.gallery-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* whitw frameee  */
+.gallery-frame {
+  padding: .5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #0a3758fa;
+  color: #d9d9d9;
+}
+
+.caption{
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+}
+
+/* Images */
+.gallery-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.gallery-img:hover {
+  opacity: .7;
 }
