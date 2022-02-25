@@ -59,7 +59,7 @@
 // javafor lazyloading
 
 document.addEventListener("DOMContentLoaded", function() {
-    var lazyloadImages = document.querySelectorAll("img.gallery-img");    
+    var lazyloadImages = document.querySelectorAll("gallery-img");    
     var lazyloadThrottleTimeout;
     
     function lazyload () {
