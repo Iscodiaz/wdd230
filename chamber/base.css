@@ -149,7 +149,7 @@ footer {
     padding: 0;
     margin: 0;
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
     background-color: white;
 }
 
@@ -721,4 +721,164 @@ h2 {
 
 .gallery-img:hover {
   opacity: .7;
+}
+
+/* the css for the join page */
+
+.signupFrm{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', 'Helvetica', 'sans-serif';
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+
+
+/* css for the form */
+
+.form {
+  background-color: white;
+  width: 400px;
+  border-radius: 8px;
+  padding: 20px 40px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.title {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+/* Style the inputs */
+.inputContainer {
+  position: relative;
+  height: 45px;
+  width: 90%;
+  margin-bottom: 17px;
+}
+
+.input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #032741;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 0 20px;
+  outline: none;
+  background: none;
+  z-index: 1;
+}
+
+/* Hide the placeholder texts (a) */
+
+::placeholder {
+  color: transparent;
+}
+
+/* Styling text labels */
+
+.label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: white;
+  color: #032741;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+}
+
+.submitBtn {
+  display: block;
+  margin-left: auto;
+  padding: 15px 30px;
+  border: none;
+  background-color: #1b83ce;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.submitBtn:hover {
+  background-color: #032741;
+  transform: translateY(-2px);
+}
+
+.input:focus + .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1b83ce;
+}
+
+.input:focus {
+  border: 2px solid #1b83ce;
+}
+
+.input:not(:placeholder-shown)+ .label {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* membership info */
+
+.membership{
+  align-items: right;
+  justify-content: right;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+  border-top: 0pt;
+  margin-top: 0pt;
+}
+
+h1{
+  margin-top: 50pt;
+  border-top: 0pt;
+  align-items: center;
+  text-align: center;
+}
+
+h2{
+  margin-top: 0pt;
+  border-top: 0pt;
+  align-items: center;
+  text-align: center;
+}
+
+/* welcome page */
+
+.welcome{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+	color:#1b83ce;
+	text-align:center;
+	margin-top:100px;
+	text-shadow:1px 1px 1px black;
+	font-size:50px;
 }
