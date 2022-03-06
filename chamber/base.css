@@ -882,3 +882,76 @@ h2{
 	text-shadow:1px 1px 1px black;
 	font-size:50px;
 }
+
+
+
+/* Directory css  */
+
+
+.directory-area{
+  display: block;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+font-family: 'Arial', 'Helvetica', 'sans-serif';
+  font-size: 16px;
+  box-sizing: border-box;
+  display: block;
+}
+
+@media only screen and (min-width: 1000px)
+   { .cards
+           grid-template-columns: repeat(3, 1fr);}
+
+
+.directory-header{
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+font-family: 'Arial', 'Helvetica', 'sans-serif';
+  box-sizing: border-box;
+  font-size: 2em;
+  margin: 0.67em 0;
+  text-align: center;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.directory-btns{
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+font-family: 'Arial', 'Helvetica', 'sans-serif';
+  font-size: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;}
+
+
+.cards{
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+font-family: 'Arial', 'Helvetica', 'sans-serif';
+  font-size: 16px;
+  box-sizing: border-box;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+
+
+div.cards section{
+  margin: 10px 10px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
